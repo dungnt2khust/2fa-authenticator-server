@@ -74,9 +74,9 @@ app.post("/login", async (req, res) => {
     });
 
     if (currUser) {
-      res.send(`Hello ${currUser.User}`);
+      res.send({Success: true, Username: currUser.User, Message: `Hello ${currUser.User}`});
     } else {
-      res.send("Wrong account !!!");
+      res.send({Success: false, Message: "Wrong account !!!"});
     }
   } catch (error) {
     res.send(error);
