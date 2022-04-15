@@ -1,19 +1,19 @@
 [
   {
-    "User": "eddieonthecode",
-    "Password": "Eddie@0502",
+    "User": "User0001",
+    "Password": "12345678@Abc",
     "SecretKey": "CAKXUZQFGFNXG4JW",
     "Have2FA": true
   },
   {
-    "User": "nguyentiendung01",
-    "Password": "Eddie@0502",
+    "User": "User0002",
+    "Password": "12345678@Abc",
     "SecretKey": "GJKEIVZSFV5BU6KY",
     "Have2FA": true
   },
   {
-    "User": "nguyentiendung02",
-    "Password": "Eddie@0502",
+    "User": "User0003",
+    "Password": "12345678@Abc",
     "SecretKey": "IVHF6HDFAACXMML6",
     "Have2FA": false
   }
