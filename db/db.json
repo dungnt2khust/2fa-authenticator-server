@@ -3,18 +3,21 @@
     "User": "User0001",
     "Password": "12345678@Abc",
     "SecretKey": "CAKXUZQFGFNXG4JW",
-    "Have2FA": true
+    "Have2FA": true,
+    "DisplayName": "Nguyễn Tiến Dũng"
   },
   {
     "User": "User0002",
     "Password": "12345678@Abc",
     "SecretKey": "GJKEIVZSFV5BU6KY",
-    "Have2FA": true
+    "Have2FA": true,
+    "DisplayName": "Trần Đức Huy"
   },
   {
     "User": "User0003",
     "Password": "12345678@Abc",
     "SecretKey": "IVHF6HDFAACXMML6",
-    "Have2FA": false
+    "Have2FA": false,
+    "DisplayName": "Bùi Quốc Khánh"
   }
 ]
