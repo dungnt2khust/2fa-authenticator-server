@@ -1,0 +1,20 @@
+[
+  {
+    "User": "eddieonthecode",
+    "Password": "Eddie@0502",
+    "SecretKey": "CAKXUZQFGFNXG4JW",
+    "Have2FA": true
+  },
+  {
+    "User": "nguyentiendung01",
+    "Password": "Eddie@0502",
+    "SecretKey": "GJKEIVZSFV5BU6KY",
+    "Have2FA": true
+  },
+  {
+    "User": "nguyentiendung02",
+    "Password": "Eddie@0502",
+    "SecretKey": "IVHF6HDFAACXMML6",
+    "Have2FA": false
+  }
+]
