@@ -40,7 +40,7 @@ app.get("/users-qr", (req, res) => {
       var data = JSON.parse(response);
       data.forEach((user, index) => {
         // const secretKey = authenticator.generateSecret();
-        const qrCodeStr = `otpauth://totp/${ADMIN_EMAIL}?secret=${user.SecretKey}&issuer=${user.User}`;
+        const qrCodeStr = `otpauth://totp/${user.User}?secret=${user.SecretKey}&issuer=${ADMIN_ISSUER}`;
         QRCode.toDataURL(qrCodeStr)
           .then((x) => {
             user["QrCode"] = x.replace("data:image/png;base64,", "");
